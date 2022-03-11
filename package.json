@@ -1,0 +1,27 @@
+{
+	"name": "discord-oauth2-example",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/barbarbar338/discord-oauth2-example"
+	},
+	"author": {
+		"email": "hi@338.rocks",
+		"name": "Barış DEMİRCİ",
+		"url": "https://338.rocks"
+	},
+	"dependencies": {
+		"express": "^4.17.3",
+		"express-session": "^1.17.2",
+		"passport": "^0.5.2",
+		"passport-discord": "^0.1.4"
+	},
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	},
+	"scripts": {
+		"start": "node .",
+		"format": "prettier --write ."
+	}
+}
